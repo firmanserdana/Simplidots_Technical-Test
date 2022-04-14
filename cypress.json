@@ -1,0 +1,20 @@
+{
+    "ignoreTestFiles": ["*.js", "*atoms.ts"],
+    "video": false,
+    "failOnStatusCode": false,
+    "chromeWebSecurity": false,
+    "fixturesFolder": "./cypress/fixtures",
+    "integrationFolder": "./cypress/integration",
+    "supportFile": "./cypress/support/index.ts",
+    "pluginsFile": "./cypress/plugins/index.ts",
+    "reporterOptions": {
+        "saveJson": true
+    },
+    "viewportHeight": 1200,
+    "viewportWidth": 1600,
+    "retries": {
+        "runMode": 0,
+        "openMode": 0
+    },
+    "experimentalStudio": true
+}

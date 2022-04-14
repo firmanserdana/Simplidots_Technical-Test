@@ -1,0 +1,29 @@
+{
+  "include": [
+    "node_modules/cypress",
+    "cypress/**/*.ts",
+    "cypress/**/*.js",
+  ],
+  "exclude":  [ "node_modules"],
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+    "noEmit": true,
+    "checkJs": false,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "types": [
+      "cypress",
+      "node",
+      "cypress-file-upload",
+      "cypress-plugin-stripe-elements",
+      "cypress-iframe",
+      "cypress-axe"
+    ],
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  }
+}

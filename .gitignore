@@ -1,0 +1,21 @@
+.env
+
+.DS_Store
+.thumbs.db
+node_modules
+data
+
+# Cypress test artifacts
+/cypress/screenshots
+/cypress/videos
+/cypress/reports
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+package-lock.json
+
+# IntelliJ configs
+.idea
